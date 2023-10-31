@@ -30,10 +30,10 @@ function App() {
   }
   return (
     <>
-      <Navbar title="TextUtils" theme={mode} toggleMode={toggleMode}/>
+      <Navbar title="TextUtilities" theme={mode} toggleMode={toggleMode}/>
       <Alert alert={alert}/>
       <div className="container">
-        <Textinput heading="Analyzer text Area " theme={mode} showAlert={showAlert}/>
+        <Textinput heading="Text Area" theme={mode} showAlert={showAlert}/>
       </div>
     </>
   );
